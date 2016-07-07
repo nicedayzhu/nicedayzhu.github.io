@@ -1,1 +1,62 @@
-helloworld
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>我的个人简介</title>
+	<meta name="author" content="zdp" />
+	<meta name="description" content="zdpcv" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet"type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+</head>
+<body>
+
+	<ul id="menu">
+		<li data-menuanchor="about" class="active"><a href="#about">关于我</a></li>
+		<li data-menuanchor="project"><a href="#project">项目</a></li>
+		<li data-menuanchor="education"><a href="#education">学历</a></li>
+        <li data-menuanchor="contact"><a href="#contact">联系方式</a></li>
+
+	</ul>
+
+	<div id="pagepiling">
+	    <div class="section section1">
+        	<img class="avatar" src="img/avatar.png" />
+	    	<h1>关于我</h1>
+			<p>Looping top and bottom enabled</p>
+	    </div>
+	    <div class="section section2">
+	    	<div class="intro">
+	    		<h1>项目</h1>
+				<p>Go to the first section and scroll up or to the last one and scroll down to see how it works.</p>
+	    	</div>
+	    </div>
+        <div class="section section3">
+	    	<div class="intro">
+	    		<h1>学历</h1>
+				<p>And it will loop to the first section</p>
+	    	</div>
+	    </div>
+	    <div class="section section4">
+	    	<div class="intro">
+	    		<h1>联系方式</h1>
+				<p>And it will loop to the first section</p>
+	    	</div>
+            <div class="social">
+              <a class="social-item" href="#"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i>&nbsp; </a>
+              <a class="social-item" href="http://weibo.com/1781461931" target="_blank"><i class="fa fa-weibo fa-4x" aria-hidden="true"></i>&nbsp;</a>
+              <a class="social-item" href="https://github.com/nicedayzhu" target="_blank"><i class="fa fa-github-alt fa-4x" aria-hidden="true"></i>&nbsp; </a>
+              <a class="social-item" href="#"><i class="fa fa-weixin fa-4x" aria-hidden="true"></i>&nbsp; </a>
+			</div>
+	    </div>
+	</div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/jquery.pagepiling.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/move.js/0.5.0/move.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

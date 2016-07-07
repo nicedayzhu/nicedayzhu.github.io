@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+a{
+	text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#f2f2f2;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: "Microsoft YaHei", 'Lato', Calibri, Arial, sans-serif;
+	color: #f2f2f2;
+}
+h1{
+	font-size: 5em;
+}
+p{
+	font-size: 2em;
+}
+.section{
+	text-align: center;
+}
+.avatar{
+	width:180px;
+	height:180px;
+	border:10px solid #E1FFFF;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	border-radius:50%
+}
+
+/* Menu
+ * --------------------------------------- */
+#menu li {
+	display:inline-block;
+	margin: 1px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+    border-radius: 8px;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+	position:fixed;
+	top:0;
+	left:10px;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+
+.intro p{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+/* Section 1
+ * --------------------------------------- */
+.section1 h1{
+	color: #444;
+}
+.section1 p{
+	color: #333;
+	color: rgba(0,0,0,0.3);
+}
+
+/* Section 2
+ * --------------------------------------- */
+.section2 h1,
+.section2 p{
+	z-index: 3;
+}
+.section2 p{
+	opacity: 0.8;
+}
+
+/* Section 3
+ * --------------------------------------- */
+.section3 h1{
+	margin-left:-1500px;
+	width: 60%;
+}
+.section3 p{
+	margin-left:1500px;
+	width: 60%;
+	color: #757575;
+}
+
+/* Section 4
+ * --------------------------------------- */
+ .section4 h1{
+	 color:white;
+	 text-shadow:2px 2px 30px #000000;
+ }
+.section4 p{
+	opacity: 0.6;
+}
+.social{
+	margin:15px auto;
+	border:3px solid white;
+	border-radius:25px;
+	box-shadow: 5px 5px 5px #888888;
+	padding:10px;
+	width: 20%;
+}
+a.social-item{
+	color:white;
+}
+i.fa-twitter:hover{
+	color:#1da1f2;
+}
+i.fa-weibo:hover{
+	color:red;
+}
+i.fa-github-alt:hover{
+	color:#333;
+}
+i.fa-weixin:hover{
+	color:#348903;
+}
+.fa{
+	transition:color 0.5s;
+}
+
+/* Overwriting fullPage.js tooltip color
+* --------------------------------------- */
+#pp-nav.custom .pp-tooltip{
+	color: #AAA;
+}
