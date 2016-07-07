@@ -22,7 +22,9 @@ $(document).ready(function(){
 				break;
 			case 3:
 				move('.section3 h1').set('margin-left','20%').end();
-				move('.section3 p').set('margin-left','20%').end();
+				move('.section3 p').set('margin-left','20%').end(function(){
+						move('.section3 p').scale(1.2).end();
+					});
 				break;
 			case 4:
 				break;
@@ -43,6 +45,7 @@ $(document).ready(function(){
 			case 3:
 			    move('.section3 h1').set('margin-left','-1500px').end();
                 move('.section3 p').set('margin-left','1500px').end();
+				move('.section3 p').scale(1).end();
 				break;
 			case 4:
 				break;
