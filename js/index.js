@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	$('#pagepiling').pagepiling({
-		menu: '#menu',
+		easing: 'easeOutElastic',
+		//menu: '#menu',
 		anchors: ['about', 'project', 'education','contact'],
 		sectionsColor: ['#87CEEB', '#778899', '#8FBC8F','#E9967A'],
 		navigation: {
